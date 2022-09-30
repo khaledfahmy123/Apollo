@@ -39,9 +39,9 @@ export const SliderComp = (props) => {
           <Slider
             aria-label="Temperature"
             defaultValue={1}
-            valueLabelDisplay="on"
+            valueLabelDisplay="auto"
             step={5}
-            // marks={vals}
+            marks={vals}
             min={2000}
             max={2015}
             onChange={sliderHandler}

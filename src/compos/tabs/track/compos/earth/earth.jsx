@@ -24,11 +24,11 @@ export function Earth(props) {
     earthRef.current.rotation.y += 2 * Math.PI/(3600*24);
     cloudsRef.current.rotation.y = 2 * Math.PI/(3600*24);
   });
-
+  let radius = 1;
   return (
     <>
-      <mesh ref={cloudsRef} position={[0, 0, 0]} castShadow receiveShadow>
-        <sphereGeometry args={[1.005, 32, 32]} />
+      <mesh ref={cloudsRef} position={[0, 0, 0]} castShadow receiveShadow frustumCulled>
+        <sphereGeometry args={[radius + 0.005, 32, 32]} />
         <meshPhongMaterial
           map={cloudsMap}
           opacity={0.4}
@@ -38,7 +38,7 @@ export function Earth(props) {
         />
       </mesh>
       <mesh ref={earthRef} position={[0, 0, 0]} castShadow receiveShadow>
-        <sphereGeometry args={[1, 32, 32]} />
+        <sphereGeometry args={[radius, 32, 32]} />
         <meshPhongMaterial specularMap={specularMap} />
         <meshStandardMaterial
           map={colorMap}

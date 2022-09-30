@@ -21,12 +21,10 @@ export const Track = () => {
     setPos(newPos)
   }
 
+  // var data = require("./compos/coords1.json");
+  // console.log(data);
 
-
-  // useThree(({camera}) => {
-  //   camera.rotation.set(0, 0, 0);
-  // });
-
+  // * -1/6371
 
   return (
     <>
