@@ -1,0 +1,25 @@
+.main{
+    max-width: 1000px;
+    min-height: 600px;
+    margin: auto;
+    border-radius: 20px;
+    background: #2c387e;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.para{
+    color: #BCC4CC;
+    font-family: tahoma;
+    text-align: center;
+}
+
+.canv{
+    height: 250px;
+}
+
+.canv canvas{
+    height: 100%;
+    background: #272730;
+}

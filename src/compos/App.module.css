@@ -1,0 +1,18 @@
+html {
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.root {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* background: url('./../imgs/space-bg.jpg'); */
+  background-color: #000;
+}
