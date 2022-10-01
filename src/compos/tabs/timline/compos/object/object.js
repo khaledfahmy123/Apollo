@@ -13,10 +13,10 @@ const Obj = () => {
   // const fbx = useLoader(GLTFLoader, "./lol2.glb");
   console.log("start");
   // const gltf = useGLTF('https://thinkuldeep.com/modelviewer/Astronaut.glb')
-  const gltf = useGLTF(require("./Cassini.glb"))
+  const gltf = useGLTF(require("./../../../../../assets/models/ISS_stationary.glb"))
   console.log(gltf);
   console.log("lol");
-  return (<primitive object={gltf.scene} />)
+  return (<primitive object={gltf.scene} scale={0.08} />)
 
   // return <primitive object={fbx.scene.children[0]} />
 };

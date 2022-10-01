@@ -1,5 +1,5 @@
 import styles from "./App.module.css";
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import { Track } from "./tabs/track/track";
 import { Timeline } from "./tabs/timline/timeline";
 import { Canv } from "./tabs/test/canv";
@@ -14,23 +14,22 @@ const toDeg = (val) => (val / (Math.PI * 2)) * 360;
 
 const tabs = [<Track />, <Timeline />];
 
-
-
-
-
 function App() {
   const [tab, setTab] = useState(0);
+  const [data, setData] = useState([]);
 
   const swipeHandler = (e) => {
     console.log(e.target);
+
+    if (e.target.id == "right") {
+      setTab((prev) => (prev + 1 < tabs.length ? prev + 1 : prev));
+    }
+    if (e.target.id == "left") {
+      setTab((prev) => (prev - 1 > -1 ? prev - 1 : prev));
+    }
+  };
+
   
-    if (e.target.id == "right"){
-      setTab(prev => (prev + 1) < tabs.length ? prev + 1: prev)
-    }
-    if (e.target.id == "left"){
-      setTab(prev => (prev - 1) > -1 ? prev - 1: prev)
-    }
-  }
   return (
     <>
       <button

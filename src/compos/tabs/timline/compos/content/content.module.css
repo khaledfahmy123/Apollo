@@ -16,10 +16,18 @@
 }
 
 .canv{
-    height: 250px;
+    display: flex;
+    height: 550px;
+    justify-content: center;
 }
 
 .canv canvas{
     height: 100%;
     background: #272730;
+}
+
+.img{
+    /* width: 100%; */
+    height: 100%;
+    margin: auto;
 }

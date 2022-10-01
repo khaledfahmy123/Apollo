@@ -7,21 +7,19 @@ import {Content} from "./compos/content/content"
 
 
 export const Timeline = () => {
-  const [year, setYear] = useState(1990)
+  const [year, setYear] = useState(2000)
 
   const yearChange = (val) => {
     console.log(val);
+    setYear(val)
   }
 
-  let vals = [
-    { value: 0, label: "lol" },
-    { value: 1, label: "lol" },
-  ];
+  
   return (
     <>
       <section className={styles.main}>
         <SliderComp yearChange={yearChange}/>
-        <Content />
+        <Content year={year}/>
       </section>
     </>
   );

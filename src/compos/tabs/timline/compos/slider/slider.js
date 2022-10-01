@@ -31,6 +31,7 @@ export const SliderComp = (props) => {
     { value: 2005, label: "2005" },
     { value: 2010, label: "2010" },
     { value: 2015, label: "2015" },
+    { value: 2020, label: "2020" },
   ];
   return (
     <>
@@ -43,7 +44,7 @@ export const SliderComp = (props) => {
             step={5}
             marks={vals}
             min={2000}
-            max={2015}
+            max={2020}
             onChange={sliderHandler}
             sx={{
               "& .MuiSlider-markLabel": {

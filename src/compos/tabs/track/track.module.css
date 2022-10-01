@@ -1,0 +1,40 @@
+
+
+.date_parent{
+    color:#fff;
+    position: absolute;
+    margin: 22px;
+    left: 90px;
+    z-index: 5;
+}
+
+.date input, .date select, .date{
+    color: #fff;
+    font-family: tahoma;
+    font-size: 14px;
+}
+
+select option{
+    color: #666;
+}
+
+
+
+.btn{
+    position: absolute;
+    background: #fff;
+    color: rgb(85, 114, 199);
+    display: inline-block;
+    margin: 12px 20px 20px;
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 9px;
+    z-index: 5;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: rgb(85, 114, 199);
+    color: #fff;
+}
