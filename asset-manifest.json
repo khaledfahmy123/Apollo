@@ -1,22 +1,41 @@
 {
   "files": {
-    "main.css": "/Apollo/static/css/main.8b11842f.css",
-    "main.js": "/Apollo/static/js/main.00b8f6b7.js",
+    "main.css": "/Apollo/static/css/main.b289de37.css",
+    "main.js": "/Apollo/static/js/main.b18e6399.js",
+    "static/css/299.38c326cc.chunk.css": "/Apollo/static/css/299.38c326cc.chunk.css",
+    "static/js/299.d2bb3de7.chunk.js": "/Apollo/static/js/299.d2bb3de7.chunk.js",
+    "static/css/122.50c4909f.chunk.css": "/Apollo/static/css/122.50c4909f.chunk.css",
+    "static/js/122.4f6b8776.chunk.js": "/Apollo/static/js/122.4f6b8776.chunk.js",
+    "static/js/845.53a2b531.chunk.js": "/Apollo/static/js/845.53a2b531.chunk.js",
+    "static/js/558.c42ee570.chunk.js": "/Apollo/static/js/558.c42ee570.chunk.js",
+    "static/js/891.83b9d370.chunk.js": "/Apollo/static/js/891.83b9d370.chunk.js",
+    "static/js/314.9c15d4dd.chunk.js": "/Apollo/static/js/314.9c15d4dd.chunk.js",
     "static/media/ISS_stationary.glb": "/Apollo/static/media/ISS_stationary.b375df467a38c492e54b.glb",
     "static/media/8k_earth_clouds.jpg": "/Apollo/static/media/8k_earth_clouds.08fcd80007fae8fc7170.jpg",
+    "static/media/sound1.mp3": "/Apollo/static/media/sound1.6443c3f6d1824f9c3c14.mp3",
     "static/media/8k_earth_daymap.jpg": "/Apollo/static/media/8k_earth_daymap.54672c1f3ba121d80470.jpg",
+    "static/media/a (9).gif": "/Apollo/static/media/a (9).8117adef88fc1d9a6e19.gif",
     "static/media/2005.jpg": "/Apollo/static/media/2005.44dcabc87d0d57220101.jpg",
     "static/media/8k_earth_specular_map.jpg": "/Apollo/static/media/8k_earth_specular_map.7b4efa59933b470e3776.jpg",
     "static/media/8k_earth_normal_map.jpg": "/Apollo/static/media/8k_earth_normal_map.930cf2e99bc548140c29.jpg",
     "static/media/2000.jpg": "/Apollo/static/media/2000.6311cbd4bb910a60e156.jpg",
     "static/media/2015.jpg": "/Apollo/static/media/2015.a9d541177ea7b28aa1c3.jpg",
     "static/media/2010.webp": "/Apollo/static/media/2010.70b3128b71ae75d44db5.webp",
+    "static/media/Enixe.ttf": "/Apollo/static/media/Enixe.a6bd44a1d0752ae5dabd.ttf",
     "index.html": "/Apollo/index.html",
-    "main.8b11842f.css.map": "/Apollo/static/css/main.8b11842f.css.map",
-    "main.00b8f6b7.js.map": "/Apollo/static/js/main.00b8f6b7.js.map"
+    "main.b289de37.css.map": "/Apollo/static/css/main.b289de37.css.map",
+    "main.b18e6399.js.map": "/Apollo/static/js/main.b18e6399.js.map",
+    "299.38c326cc.chunk.css.map": "/Apollo/static/css/299.38c326cc.chunk.css.map",
+    "299.d2bb3de7.chunk.js.map": "/Apollo/static/js/299.d2bb3de7.chunk.js.map",
+    "122.50c4909f.chunk.css.map": "/Apollo/static/css/122.50c4909f.chunk.css.map",
+    "122.4f6b8776.chunk.js.map": "/Apollo/static/js/122.4f6b8776.chunk.js.map",
+    "845.53a2b531.chunk.js.map": "/Apollo/static/js/845.53a2b531.chunk.js.map",
+    "558.c42ee570.chunk.js.map": "/Apollo/static/js/558.c42ee570.chunk.js.map",
+    "891.83b9d370.chunk.js.map": "/Apollo/static/js/891.83b9d370.chunk.js.map",
+    "314.9c15d4dd.chunk.js.map": "/Apollo/static/js/314.9c15d4dd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b11842f.css",
-    "static/js/main.00b8f6b7.js"
+    "static/css/main.b289de37.css",
+    "static/js/main.b18e6399.js"
   ]
 }
