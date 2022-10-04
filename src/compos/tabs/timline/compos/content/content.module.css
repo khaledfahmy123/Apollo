@@ -1,6 +1,7 @@
 .main{
     max-width: 1000px;
     min-height: 600px;
+    max-height: calc(100% - 20px);
     margin: auto;
     border-radius: 20px;
     background: #2c387e;

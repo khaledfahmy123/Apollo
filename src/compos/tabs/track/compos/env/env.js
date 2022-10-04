@@ -5,7 +5,7 @@ export const Env = () => {
     <>
       <pointLight
         color="#f6f3ea"
-        position={[-2, 0, 5]}
+        position={[1, 0, 5]}
         intensity={1.4}
         castShadow
         shadow-mapSize-height={512}

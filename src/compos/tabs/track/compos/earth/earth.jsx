@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import { useFrame, useLoader } from "@react-three/fiber";
-import { OrbitControls, Stars } from "@react-three/drei";
 import * as THREE from "three";
 
 import EarthDayMap from "./../../../../../assets/textures/8k_earth_daymap.jpg";
@@ -18,8 +17,7 @@ export function Earth(props) {
   const earthRef = useRef();
   const cloudsRef = useRef();
 
-  useFrame(({ clock }) => {
-    const elapsedTime = clock.getElapsedTime();
+  useFrame(() => {
 
     earthRef.current.rotation.y += 2 * Math.PI/(3600*24);
     cloudsRef.current.rotation.y = 2 * Math.PI/(3600*24);

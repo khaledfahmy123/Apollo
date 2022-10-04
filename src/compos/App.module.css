@@ -1,4 +1,10 @@
-:root{
+@font-face {
+  font-family: "Enixe";
+  src: local("Enixe"), url("./../fonts/Enixe.ttf") format("truetype");
+  font-weight: bold;
+}
+
+:root {
   --swipe-width: 80px;
 }
 
@@ -21,7 +27,6 @@ body {
   background-color: #000;
 }
 
-
 .swipe {
   position: absolute;
   top: 50%;
@@ -39,14 +44,18 @@ body {
   border: none;
 }
 
-.swipe:hover{
+.swipe:hover {
   background: #00bcd499;
 }
 
-.left{
-  left: calc(100% - var(--swipe-width)/2);
+.left {
+  left: calc(100% - var(--swipe-width) / 2);
 }
 
-.right{
-  left: calc(0% + var(--swipe-width)/2);
+.right {
+  left: calc(0% + var(--swipe-width) / 2);
+}
+
+.hide {
+  display: none;
 }

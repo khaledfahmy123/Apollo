@@ -18,6 +18,14 @@ select option{
     color: #666;
 }
 
+select{
+    cursor: pointer;
+}
+
+.date_parent button svg{
+    fill: #fff;
+    stroke: #fff;
+}
 
 
 .btn{

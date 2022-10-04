@@ -1,0 +1,55 @@
+.container {
+  position: absolute;
+  width: 100%;
+  height: calc(100% - 1px);
+  background: #1D1F39;
+  top: 0;
+  left: 0;
+  z-index: 11;
+  font-family: "Enixe";
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  transition: all 0.3s ease;
+}
+
+/*13C8F6 light*/
+/*010D4C dark*/
+
+/* .logo {
+    font-size: 120px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-shadow: 0 0 0.15em #1da9cc;
+    user-select: none;
+    white-space: nowrap;
+    filter: blur(0.007em);
+    animation: shake 2.5s linear forwards;
+    padding: 20px;
+    box-sizing: border-box;
+} */
+
+.logo {
+  font-size: 120px;
+  height: 50%;
+  text-align: center;
+  background: -webkit-linear-gradient(#15F3FF, #000106);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn{
+    width: 250px;
+    height: 70px;
+    font-size: 25px;
+    justify-self: center;
+    align-self: center;
+}
+
+
+.fade{
+  opacity: 0;
+}
